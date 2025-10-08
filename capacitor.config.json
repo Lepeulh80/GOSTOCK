@@ -1,6 +1,6 @@
 {
   "appId": "com.tonapp.stock",
-  "appName": "GSTK",
+  "appName": "StockApp",
   "webDir": "out",
   "bundledWebRuntime": false
 }

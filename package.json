@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "lint": "echo \"no lint configured\"",
-    "prepare": "echo 'no prepare'",
-    "test": "jest --watchAll=false",
-    "test:watch": "jest --watch",
-    "vercel-build": "next build",
-    "export": "next export"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "export": "next export",
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",

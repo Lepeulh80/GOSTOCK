@@ -1,1 +1,16 @@
-node_modules
+# env
+.env.local
+
+# node / next
+/node_modules
+/.next
+/out
+/dist
+
+# android / capacitor
+/android
+/android/*/local.properties
+
+# OS
+.DS_Store
+Thumbs.db
